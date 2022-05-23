@@ -24,3 +24,5 @@ urlpatterns = [
     path('items/', views.items_list, name="items-list"),
     path('item/<int:id>/', views.item_page)
 ]
+
+# ...
